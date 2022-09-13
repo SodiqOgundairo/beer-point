@@ -1,0 +1,100 @@
+/* body {
+     --tw-text-opacity: 1;
+    background-color: rgba(30, 41, 59, var(--tw-text-opacity));;
+} */
+
+
+a {
+    text-decoration: none !important;
+}
+
+h1 .text-yellow {
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: larger;
+    width: max-content !important;
+}
+
+@media (max-width: 772px) {
+    #head {
+        margin-bottom: 20px;
+    }
+}
+
+/* #beer{
+    margin-top: -20px;
+    
+} */
+
+#price {
+    margin-bottom: 10px;
+}
+
+#rounded {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 20%;
+}
+
+#pro-stry {
+    max-height: 10px;
+}
+
+@media (max-width:772px) {
+    #rounded {
+        display: block;
+        margin: 0;
+        margin-bottom: 30px;
+        width: auto;
+        height: fit-content;
+    }    
+}
+
+#w-full{
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+/* INDEXIIIIIIIIIII */
+
+.navbar-brand {
+    font-weight: bolder;
+    color: white !important;
+}
+
+.top-body {
+    padding: 400px;
+}
+
+/* .top-body-x {
+background-color: rgba(121, 56, 9, 0.411);
+} */
+
+
+  
+   .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }

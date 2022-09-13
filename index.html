@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="vendor/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/tailwind.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <title>BEER POINT - DEV ABIOLA</title>
+  </head>
+  <body class="text-blueGray-700 antialiased">
+    <!-- nav bar -->
+    <nav
+      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
+    >
+      <div
+        class="container px-4 mx-auto flex flex-wrap items-center justify-between"
+      >
+        <div
+          class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+        >
+          <a
+            class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+            href="../index.html"
+            >BEER POINT</a
+          >
+          <!-- <button
+            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            type="button"
+            onclick="toggleNavbar('example-collapse-navbar')"
+          >
+            <i class="text-white fas fa-bars"></i>
+          </button> -->
+        </div>
+      </div>
+    </nav>
+
+    <!-- nav bar ends here -->
+
+    <!-- main starts -->
+    <main>
+      <!-- top body -->
+      <div
+        class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
+      >
+        <div
+          class="absolute top-0 w-full h-full bg-center bg-cover"
+          style="background-image: url('img/bg-1.jpg')"
+        >
+          <span
+            id="blackOverlay"
+            class="w-full h-full absolute opacity-75 bg-black"
+          ></span>
+        </div>
+        <div class="container relative mx-auto">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              <div class="pr-12">
+                <h1 class="text-white font-semibold text-5xl" id="head">
+                  Let's get you a <br />
+                  <span class="text-yellow"> bottle of beer</span> <br />
+                  From your favourite BeerLounge
+                </h1>
+                <p class="mt-4 text-lg text-blueGray-200">
+                  Get your liquor delivered right to your doorstep. AND you can
+                  also pick it up from our physical store.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
+          style="transform: translateZ(0px)"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-blueGray-800 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+      </div>
+
+      <!-- top body ends -->
+
+      <!-- products display -->
+      <section class="pb-20 bg-blueGray-800 -mt-24" id="beer">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap">
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="img/beer-list/bottle-gul-min.png" class="card-img-top" alt="Budweiser">
+                  <div class="card-body">
+                    <h5 class="card-title">Budweriser</h5>
+                    <p class="card-text">N30,000 Per Carton</p>
+                    <button class="cursor-pointer justify-content-md-end bg-gray-700 hover:bg-gray-600 shadow-xl px-5 py-2 inline-block text-blue-100 hover:text-white rounded" data-bs-toggle="popover" data-bs-title="Popover title"
+                    data-bs-content="And here's some amazing content. It's very engaging. Right?">Place Order
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/beer-list/bottle-desperados-bottle-min-1.png" class="card-img-top" alt="Despirado">
+                  <div class="card-body">
+                    <h5 class="card-title">Despirado</h5>
+                    <p class="card-text">N30,000 Per Carton</p>
+                    <a href="#" class="cursor-pointer bg-gray-700 hover:bg-gray-600 shadow-xl px-5 py-2 inline-block text-blue-100 hover:text-white rounded">Place Order</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/beer-list/bottle-goldberg-bottle-new2-min.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Goldberg</h5>
+                    <p class="card-text">N30,000 Per Carton</p>
+                    <a href="#" class="cursor-pointer bg-gray-700 hover:bg-gray-600 shadow-xl px-5 py-2 inline-block text-blue-100 hover:text-white rounded">Place Order</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/beer-list/bottle-guiness.jpg" class="card-img-top" alt="Hero">
+                  <div class="card-body">
+                    <h5 class="card-title">Guiness</h5>
+                    <p class="card-text">N30,000 Per Carton</p>
+                    <a href="#" class="cursor-pointer bg-gray-700 hover:bg-gray-600 shadow-xl px-5 py-2 inline-block text-blue-100 hover:text-white rounded">Place Order</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/beer-list/bottle-life2-bottle-new2-min.png" class="card-img-top" alt="Life">
+                  <div class="card-body">
+                    <h5 class="card-title">Life</h5>
+                    <p class="card-text">N30,000 Per Carton</p>
+                    <a href="#" class="cursor-pointer bg-gray-700 hover:bg-gray-600 shadow-xl px-5 py-2 inline-block text-blue-100 hover:text-white rounded">Place Order</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/beer-list/bottle-radler-citruc-min.png" class="card-img-top" alt="Raddler">
+                  <div class="card-body">
+                    <h5 class="card-title">Raddler</h5>
+                    <p class="card-text">N30,000 Per Carton</p>
+                    <a href="#" class="cursor-pointer bg-gray-700 hover:bg-gray-600 shadow-xl px-5 py-2 inline-block text-blue-100 hover:text-white rounded">Place Order</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/beer-list/bottle-star.png" class="card-img-top" alt="Star">
+                  <div class="card-body">
+                    <h5 class="card-title">Star</h5>
+                    <p class="card-text">N30,000 Per Carton</p>
+                    <a href="#" class="cursor-pointer bg-gray-700 hover:bg-gray-600 shadow-xl px-5 py-2 inline-block text-blue-100 hover:text-white rounded">Place Order</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/beer-list/bottle-tiger-bottle-new2-min.png" class="card-img-top" alt="Tiger">
+                  <div class="card-body">
+                    <h5 class="card-title">Tiger</h5>
+                    <p class="card-text">N30,000 Per Carton</p>
+                    <a href="#" class="cursor-pointer bg-gray-700 hover:bg-gray-600 shadow-xl px-5 py-2 inline-block text-blue-100 hover:text-white rounded">Place Order</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/beer-list/bottle-larger_lite_2009-09-29_1.jpg" class="card-img-top" alt="Star">
+                  <div class="card-body">
+                    <h5 class="card-title">Star</h5>
+                    <p class="card-text">N30,000 Per Carton</p>
+                    <a href="#" class="cursor-pointer bg-gray-700 hover:bg-gray-600 shadow-xl px-5 py-2 inline-block text-blue-100 hover:text-white rounded">Place Order</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="relative bg-blueGray-200 pt-8 pb-6">
+      <div
+        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
+        style="transform: translateZ(0px)"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon
+            class="text-blueGray-200 fill-current"
+            points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap text-center lg:text-left">
+          <div class="w-full lg:w-6/12 px-4">
+            <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+            <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
+              Find us on any of these platforms, we respond 1-2 business days.
+            </h5>
+            <div class="mt-6 lg:mb-0 mb-6">
+              <button
+                class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                type="button"
+              >
+                <i class="fab fa-twitter"></i></button
+              ><button
+                class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                type="button"
+              >
+                <i class="fab fa-facebook-square"></i></button
+              ><button
+                class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                type="button"
+              >
+                <i class="fab fa-instagram"></i></button
+              >
+            </div>
+          </div>
+          <div class="w-full lg:w-6/12 px-4">
+            <div class="flex flex-wrap items-top mb-6">
+              <div class="w-full lg:w-4/12 px-4 ml-auto">
+                <span
+                  class="block uppercase text-blueGray-500 text-sm font-semibold mb-2"
+                  >Quick Links</span
+                >
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                      href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                      href="#"
+                      >About Us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                      href="h#"
+                      >Contact Us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                      href="#"
+                      >Our Promos!!!</a
+                    >
+                  </li>
+                </ul>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+        <hr class="my-6 border-blueGray-300" />
+        <div
+          class="flex flex-wrap items-center md:justify-between justify-center"
+        >
+          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+            <div class="text-sm text-blueGray-500 font-semibold py-1">
+              Copyright © <span id="get-current-year"></span> Gr8QM Creatives with ❤ by 
+              <a
+                href="https://www.twitter.com/gr8QM_" target="_blank"
+                class="text-blueGray-500 hover:text-blueGray-800"
+                > Mclamba</a
+              >.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2.9.1/dist/umd/popper.min.js" charset="utf-8"></script>
+  <script src="js/main.js"></script>
+</html>
